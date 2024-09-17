@@ -1,0 +1,9 @@
+---
+title: "About Me"
+---
+
+Hi, I'm ***Arun Kumar Mahesh***, a programmer with over `10+ years` of experience in the pharma domain. I have a passion for solving complex problems through coding and data analysis, which has led me to explore the power of R programming. My goal is to share valuable insights and practical knowledge with others in this field and helping them to improve their skills and achieve their goals.
+
+You can connect with me on \[[LinkedIn](https://www.linkedin.com/in/arun-kumar-mahesh-a366b759/%20target=_blank)\] and follow my contributions on \[[Stack Overflow](https://stackoverflow.com/users/5771990/arun-kumar-mahesh%20target=_blank) \].
+
+![](/images/Arun%20Image-01.jfif){width="300"}
