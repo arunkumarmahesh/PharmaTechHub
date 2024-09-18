@@ -1,7 +1,0 @@
----
-title: "Blogs"
-listing:
-  contents: posts
-  type: grid
-  categories: true
----
