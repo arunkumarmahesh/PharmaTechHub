@@ -6,7 +6,7 @@ listing:
   feed: true
   filter-ui: false
   sort-ui: false
-  type: grid
+  type: default
 page-layout: full
 title: Blogging
 title-block-bannerrR: false
