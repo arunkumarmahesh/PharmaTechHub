@@ -1,12 +1,6 @@
 [
   {
-    "listing": "/blogs.html",
-    "items": []
-  },
-  {
     "listing": "/blogs/index.html",
-    "items": [
-      "/blogs/history.html"
-    ]
+    "items": []
   }
 ]
