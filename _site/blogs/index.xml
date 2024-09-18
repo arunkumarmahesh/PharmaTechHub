@@ -10,10 +10,10 @@
 <atom:link href="https://pharmatechhub.com/blogs/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Wed, 18 Sep 2024 12:28:55 GMT</lastBuildDate>
+<lastBuildDate>Wed, 18 Sep 2024 12:39:17 GMT</lastBuildDate>
 <item>
   <title>History of R Language</title>
-  <link>https://pharmatechhub.com/blogs/rhistory/index.html</link>
+  <link>https://pharmatechhub.com/blogs/rhistory/history.html</link>
   <description><![CDATA[ 
 
 
@@ -85,8 +85,8 @@
   <category>History</category>
   <category>science</category>
   <category>Technology</category>
-  <guid>https://pharmatechhub.com/blogs/rhistory/index.html</guid>
-  <pubDate>Wed, 18 Sep 2024 12:28:55 GMT</pubDate>
+  <guid>https://pharmatechhub.com/blogs/rhistory/history.html</guid>
+  <pubDate>Wed, 18 Sep 2024 12:39:17 GMT</pubDate>
   <media:content url="https://pharmatechhub.com/blogs/rhistory/R.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
