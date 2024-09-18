@@ -10,11 +10,22 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: blogs
+        text: Blogs
       - about.qmd
+  favicon: images/logo.jpg
+  site-url: https://pharmatechhub.com
+  body-footer: | 
+     
+  margin-footer: |
+    
+  
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 

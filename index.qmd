@@ -18,4 +18,4 @@ Feel free to explore, share your feedback, and suggest topics that you'd like to
 
 Let's code and explore the world of data together with R!
 
-![](images/step.jpg){width="600"}
+![](images/logo.jpg){width="600"}
