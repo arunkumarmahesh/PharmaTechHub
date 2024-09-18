@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/index.html</loc>
-    <lastmod>2024-09-18T10:08:31.259Z</lastmod>
-  </url>
-  <url>
-    <loc>https://example.com/about.html</loc>
-    <lastmod>2024-09-18T10:02:05.097Z</lastmod>
-  </url>
-  <url>
     <loc>https://pharmatechhub.com/index.html</loc>
-    <lastmod>2024-09-18T11:57:32.137Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pharmatechhub.com/about.html</loc>
-    <lastmod>2024-09-18T11:57:40.724Z</lastmod>
+    <lastmod>2024-09-18T12:12:58.702Z</lastmod>
   </url>
   <url>
     <loc>https://pharmatechhub.com/blogs.html</loc>
     <lastmod>2024-09-18T11:25:17.606Z</lastmod>
   </url>
   <url>
+    <loc>https://pharmatechhub.com/blogs/index.html</loc>
+    <lastmod>2024-09-18T11:57:30.400Z</lastmod>
+  </url>
+  <url>
     <loc>https://pharmatechhub.com/blogs/R-History/index.html</loc>
     <lastmod>2024-09-18T11:58:00.016Z</lastmod>
   </url>
   <url>
-    <loc>https://pharmatechhub.com/blogs/index.html</loc>
-    <lastmod>2024-09-18T11:57:30.400Z</lastmod>
+    <loc>https://pharmatechhub.com/about.html</loc>
+    <lastmod>2024-09-18T11:57:40.724Z</lastmod>
   </url>
 </urlset>
