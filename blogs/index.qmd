@@ -1,13 +1,10 @@
 ---
+title: Blogging
+page-layout: full
 listing:
   categories: true
   contents:
   - '*.qmd'
   feed: true
-  filter-ui: false
-  sort-ui: false
   type: default
-page-layout: full
-title: Blogging
-title-block-bannerrR: false
 ---
