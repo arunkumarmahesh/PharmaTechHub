@@ -8,11 +8,11 @@ Here, you\'ll find:
 
 -   **Step-by-step tutorials** for beginners and advanced users alike, covering everything from data manipulation and visualization to machine learning and statistical analysis.
 
-    ![](images/DALL·E 2024-09-18 14.30.44 - A person climbing a set of stairs made of data elements. Each step is represented by data-related concepts like 'Data Collection', 'Data Cleaning', 'D.webp){width="600"}
-
 -   **In-depth guides** from `base` to `advanced` R programming along with some of the popular R packages like `tidyverse`, `shiny`, and more.... with hands-on examples that you can apply in your day to day life.
 
 -   **Tips and tricks** to help you solve common problems, optimize your R code, and make the most out of R\'s powerful features.
+
+    ![](images/step.jpg){width="600"}
 
 Whether you're using R for data analysis, automation, or building interactive dashboards, this blog is here to make your experience more efficient and enjoyable. I believe in learning by doing, so every post is filled with code examples and practical applications that you can test and implement on your own.
 
