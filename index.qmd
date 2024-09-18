@@ -2,11 +2,13 @@
 title: "PharmaTechHub"
 ---
 
-Welcome to \[PharmaTechHub\], a space dedicated to all things **R programming**! Whether you're just starting your journey in R or you're an experienced user looking for new insights, this website is designed to provide you with practical, easy-to-follow tutorials and real-world examples to help you improve your R skills.
+Welcome to ***\[PharmaTechHub\]***, a space dedicated to all things **R programming**! Whether you're just starting your journey in R or you're an experienced user looking for new insights, this website is designed to provide you with practical, easy-to-follow tutorials and real-world examples to help you improve your R skills.
 
 Here, you\'ll find:
 
 -   **Step-by-step tutorials** for beginners and advanced users alike, covering everything from data manipulation and visualization to machine learning and statistical analysis.
+
+    ![](images/DALL·E 2024-09-18 14.30.44 - A person climbing a set of stairs made of data elements. Each step is represented by data-related concepts like 'Data Collection', 'Data Cleaning', 'D.webp){width="600"}
 
 -   **In-depth guides** from `base` to `advanced` R programming along with some of the popular R packages like `tidyverse`, `shiny`, and more.... with hands-on examples that you can apply in your day to day life.
 
