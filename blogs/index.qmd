@@ -1,5 +1,5 @@
 ---
-title: Blogging
+title: R Blogging
 page-layout: full
 listing:
   categories: true
