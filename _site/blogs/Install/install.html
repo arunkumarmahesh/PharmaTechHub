@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PharmaTechHub - R Blogging</title>
+<title>PharmaTechHub - Install R/Rstudio in Windows/Mac</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/logo.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logo.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,41 +61,10 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="PharmaTechHub" href="index.xml"></head>
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
 <body class="nav-fixed">
 
@@ -106,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">PharmaTechHub</span>
     </a>
   </div>
@@ -117,15 +84,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blogs" rel="" target="">
+    <a class="nav-link" href="../../blogs" rel="" target="">
  <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About Me</span></a>
   </li>  
 </ul>
@@ -137,21 +104,58 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="History">History <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Install">Install <span class="quarto-category-count">(1)</span></div><div class="category" data-category="OS">OS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Software">Software <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Technology">Technology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="science">science <span class="quarto-category-count">(1)</span></div></div><div class="quarto-margin-footer"><div class="margin-footer-item">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#windows" id="toc-windows" class="nav-link active" data-scroll-target="#windows">Windows</a>
+  <ul class="collapse">
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a>
+  <ul class="collapse">
+  <li><a href="#download-r" id="toc-download-r" class="nav-link" data-scroll-target="#download-r">Download R</a></li>
+  <li><a href="#install-r" id="toc-install-r" class="nav-link" data-scroll-target="#install-r">Install R</a></li>
+  </ul></li>
+  <li><a href="#rstudio" id="toc-rstudio" class="nav-link" data-scroll-target="#rstudio">RStudio</a>
+  <ul class="collapse">
+  <li><a href="#download-rstudio" id="toc-download-rstudio" class="nav-link" data-scroll-target="#download-rstudio">Download RStudio</a></li>
+  <li><a href="#install-rstudio" id="toc-install-rstudio" class="nav-link" data-scroll-target="#install-rstudio">Install Rstudio</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#macos" id="toc-macos" class="nav-link" data-scroll-target="#macos">MacOS</a>
+  <ul class="collapse">
+  <li><a href="#r-1" id="toc-r-1" class="nav-link" data-scroll-target="#r-1">R</a>
+  <ul class="collapse">
+  <li><a href="#download-r-1" id="toc-download-r-1" class="nav-link" data-scroll-target="#download-r-1">Download R</a></li>
+  <li><a href="#install-r-1" id="toc-install-r-1" class="nav-link" data-scroll-target="#install-r-1">Install R</a></li>
+  <li><a href="#install-xcode-for-dependencies" id="toc-install-xcode-for-dependencies" class="nav-link" data-scroll-target="#install-xcode-for-dependencies">Install Xcode (for dependencies)</a></li>
+  </ul></li>
+  <li><a href="#rstudio-1" id="toc-rstudio-1" class="nav-link" data-scroll-target="#rstudio-1">RStudio</a>
+  <ul class="collapse">
+  <li><a href="#download-rstudio-1" id="toc-download-rstudio-1" class="nav-link" data-scroll-target="#download-rstudio-1">Download RStudio</a></li>
+  <li><a href="#install-rstudio-1" id="toc-install-rstudio-1" class="nav-link" data-scroll-target="#install-rstudio-1">Install Rstudio</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p><img src="images/logo.jpg" class="img-fluid"></p>
 </div></div></div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R Blogging</h1>
-</div>
+<h1 class="title">Install R/Rstudio in Windows/Mac</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Install</div>
+    <div class="quarto-category">Software</div>
+    <div class="quarto-category">OS</div>
+  </div>
+  </div>
 
 
 
@@ -165,85 +169,227 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="windows" class="level1">
+<h1>Windows</h1>
+<p>This blog helps you to download R and RStudio in Windows or Mac</p>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<section id="download-r" class="level3">
+<h3 class="anchored" data-anchor-id="download-r">Download R</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Go to the <a href="https://cran.r-project.org/">CRAN</a> website.</li>
+<li>Choose a CRAN mirror and click on Download R for Windows.</li>
+<li>Click on base and then on Download <code>R x.x.x</code> for Windows (the latest version will be shown).</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-r" class="level3">
+<h3 class="anchored" data-anchor-id="install-r">Install R</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open the downloaded <code>.exe</code> file and follow the installation process.</li>
+<li>Choose the installation language and follow the set-up process.</li>
+<li>Choose the default options, unless if <code>user</code> has any specific requirements and after installation click <code>finish</code>.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio">RStudio</h2>
+<section id="download-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="download-rstudio">Download RStudio</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Go to <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> website.</li>
+<li>Choose the <code>RStudio Desktop</code> <strong>(Open Source License)</strong> for Windows.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="install-rstudio">Install Rstudio</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open the downloaded <code>.exe</code> file and follow the installation process.</li>
+<li>Choose the installation language and follow the set-up process.</li>
+<li>Choose the default options, unless if <code>user</code> has any specific requirements and after installation click <code>finish</code>.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="macos" class="level1">
+<h1>MacOS</h1>
+<section id="r-1" class="level2">
+<h2 class="anchored" data-anchor-id="r-1">R</h2>
+<section id="download-r-1" class="level3">
+<h3 class="anchored" data-anchor-id="download-r-1">Download R</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Go to the <a href="https://cran.r-project.org/">CRAN</a> website.</li>
+<li>Click on Download R for <code>macOS</code>.</li>
+<li>Download the latest <code>.pkg</code> version for macOS.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-r-1" class="level3">
+<h3 class="anchored" data-anchor-id="install-r-1">Install R</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open the <code>.pkg</code> file once downloaded.</li>
+<li>Follow the installation prompts and enter your password when prompted.</li>
+<li>Click Continue and then Install.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-xcode-for-dependencies" class="level3">
+<h3 class="anchored" data-anchor-id="install-xcode-for-dependencies">Install Xcode (for dependencies)</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open Terminal and run the following command to install Xcode tools:</li>
+<li><code>xcode-select --install</code></li>
+<li>Please follow the instructions on the screen and install.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="rstudio-1" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio-1">RStudio</h2>
+<section id="download-rstudio-1" class="level3">
+<h3 class="anchored" data-anchor-id="download-rstudio-1">Download RStudio</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Go to <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> website.</li>
+<li>Choose the <code>RStudio Desktop</code> <strong>(Open Source License)</strong> for <code>macOS</code>.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-rstudio-1" class="level3">
+<h3 class="anchored" data-anchor-id="install-rstudio-1">Install Rstudio</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open the downloaded <code>.dmg</code> file.</li>
+<li>Drag and drop the <code>RStudio icon</code> to the Applications folder.</li>
+<li>Click and open RStudio from the Applications folder.</li>
+</ul>
+</div>
+</div>
+<section id="notes" class="level4">
+<h4 class="anchored" data-anchor-id="notes">Notes</h4>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><code>System Requirements:</code> Both Windows and macOS should be up-to-date to avoid compatibility or any other issues.</li>
+<li><code>R and RStudio Versions:</code> Always ensure that you are using the <strong>latest versions</strong> of both R and RStudio for compatibility with packages.</li>
+<li><code>Package Dependencies:</code> Some packages might require additional <strong>system libraries</strong>, which the package installer will prompt you to install if needed.</li>
+</ul>
+</div>
+</div>
 
 
+</section>
+</section>
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="History,science,Technology" data-listing-file-modified-sort="1726667230596" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="../blogs/history/history.html"> <img src="../blogs/history/R.jpeg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../blogs/history/history.html">
-<h3 class="no-anchor listing-title">
-History of R Language
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('History'); return false;">
-History
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('science'); return false;">
-science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Technology'); return false;">
-Technology
-</div>
-</div>
-<a href="../blogs/history/history.html">
-<div class="listing-description">
-R is a programming language and environment specifically designed for statistical computing and graphics. It has grown to become one of the most popular tools for data…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blogs/history/history.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Install,Software,OS" data-listing-file-modified-sort="1727627544926" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="../blogs/Install/install.html"> <img src="../blogs/Install/exe.jpeg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../blogs/Install/install.html">
-<h3 class="no-anchor listing-title">
-Install R/Rstudio in Windows/Mac
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Install'); return false;">
-Install
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Software'); return false;">
-Software
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('OS'); return false;">
-OS
-</div>
-</div>
-<a href="../blogs/Install/install.html">
-<div class="listing-description">
-This blog helps you to download R and RStudio in Windows or Mac
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../blogs/Install/install.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

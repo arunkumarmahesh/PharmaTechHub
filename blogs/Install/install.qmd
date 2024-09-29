@@ -1,0 +1,101 @@
+---
+title: Install R/Rstudio in Windows/Mac
+categories:
+- Install
+- Software
+- OS
+image: exe.jpeg
+---
+
+# Windows
+
+This blog helps you to download R and RStudio in Windows or Mac
+
+## R
+
+### Download R 
+
+::: callout-note
+-   Go to the [CRAN](https://cran.r-project.org/) website. 
+-   Choose a CRAN mirror and click on Download R for Windows.
+-   Click on base and then on Download `R x.x.x` for Windows (the latest version will be shown).
+:::
+
+### Install R
+
+::: callout-note
+-   Open the downloaded `.exe` file and follow the installation process.
+-   Choose the installation language and follow the set-up process.
+-   Choose the default options, unless if `user` has any specific requirements and after installation     click `finish`.
+:::
+
+## RStudio
+
+### Download RStudio
+
+::: callout-note
+-   Go to [RStudio](https://posit.co/download/rstudio-desktop/) website.
+-   Choose the `RStudio Desktop` **(Open Source License)** for Windows.
+:::
+
+### Install Rstudio
+
+::: callout-note
+-   Open the downloaded `.exe` file and follow the installation process.
+-   Choose the installation language and follow the set-up process.
+-   Choose the default options, unless if `user` has any specific requirements and after installation     click `finish`.
+:::
+
+# MacOS
+
+## R
+
+### Download R 
+
+::: callout-note
+-   Go to the [CRAN](https://cran.r-project.org/) website. 
+-   Click on Download R for `macOS`.
+-   Download the latest `.pkg` version for macOS.
+:::
+
+### Install R
+
+::: callout-note
+-   Open the `.pkg` file once downloaded.
+-   Follow the installation prompts and enter your password when prompted.
+-   Click Continue and then Install.
+:::
+
+### Install Xcode (for dependencies)
+
+::: callout-tip
+-   Open Terminal and run the following command to install Xcode tools:
+-   `xcode-select --install`
+-   Please follow the instructions on the screen and install.
+:::
+
+## RStudio
+
+### Download RStudio
+
+::: callout-note
+-   Go to [RStudio](https://posit.co/download/rstudio-desktop/) website.
+-   Choose the `RStudio Desktop` **(Open Source License)** for `macOS`.
+:::
+
+### Install Rstudio
+
+::: callout-note
+-   Open the downloaded `.dmg` file.
+-   Drag and drop the `RStudio icon` to the Applications folder.
+-   Click and open RStudio from the Applications folder.
+:::
+
+
+#### Notes
+
+::: callout-important
+-   `System Requirements:` Both Windows and macOS should be up-to-date to avoid compatibility or any     other issues.
+-   `R and RStudio Versions:` Always ensure that you are using the **latest versions** of both R and     RStudio for compatibility with packages.
+-   `Package Dependencies:` Some packages might require additional **system libraries**, which the        package installer will prompt you to install if needed.
+:::

@@ -18,7 +18,7 @@
     "href": "blogs/index.html",
     "title": "R Blogging",
     "section": "",
-    "text": "History of R Language\n\n\n\n\n\n\n\nHistory\n\n\nscience\n\n\nTechnology\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "History of R Language\n\n\n\n\n\n\n\nHistory\n\n\nscience\n\n\nTechnology\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nInstall R/Rstudio in Windows/Mac\n\n\n\n\n\n\n\nInstall\n\n\nSoftware\n\n\nOS\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -33,5 +33,54 @@
     "title": "History of R Language",
     "section": "",
     "text": "R is a programming language and environment specifically designed for statistical computing and graphics. It has grown to become one of the most popular tools for data analysis, statistical modeling, and visualization across various fields, including academia, finance, healthcare, and technology. Here’s a brief history of the R programming language:\n\n\n\nS Language: R’s roots trace back to the 1970s with the development of the S language at Bell Labs by John Chambers and colleagues. S was designed to help statisticians interact with and manipulate data more efficiently.\nS-Plus: During the 1980s and 1990s, a commercial version of S, called S-Plus, became popular for statistical analysis in various industries.\n\n\n\n\n\nRoss Ihaka and Robert Gentleman, two statisticians from the University of Auckland, New Zealand, developed R in the early 1990s. They wanted to create an open-source alternative to S with a more user-friendly interface.\n1993: The first version of R was released. It was intended to be a free software environment where users could write and share code, and the source code was released under the GNU General Public License (GPL), ensuring it would remain open-source.\n\n\n\n\n\n1997: The R Core Team was formed, composed of statisticians from around the world who contributed to the further development of the language.\nCRAN (Comprehensive R Archive Network): Around this time, the creation of CRAN provided a centralized repository for users to download R packages and share their own code. This allowed R’s capabilities to grow rapidly through user contributions.\nThe introduction of packages significantly expanded R’s functionality, enabling users to develop tools for specialized tasks such as machine learning, time series analysis, and data visualization.\n\n\n\n\n\n2000s: R gained traction among academics and researchers because of its robust statistical features and flexibility. Many statisticians preferred it to expensive commercial software such as SAS and SPSS.\n2004: The book “R Programming” by Brian Ripley and others played a key role in introducing R to a broader audience and solidifying its place in data science.\n\n\n\n\n\nAs data science and machine learning became increasingly important across industries, R evolved as a major tool for both academic and commercial data scientists.\nPackages like ggplot2 (for advanced data visualization), dplyr (for data manipulation), and caret (for machine learning) became essential in the data scientist’s toolkit.\nR’s flexibility, paired with its robust ecosystem of packages, made it a favorite for statisticians, biostatisticians, and data scientists working on everything from genomics to social media analytics.\n\n\n\n\n\nHadley Wickham, a key contributor to the R community, introduced the Tidyverse in the mid-2010s, which provided a collection of packages designed for clean and easy data manipulation and visualization (e.g., dplyr, tidyr, ggplot2).\nRStudio, an integrated development environment (IDE) for R, became extremely popular, making R more accessible and user-friendly.\n\n\n\n\n\nIntroduction of Shiny: In 2012, RStudio introduced Shiny, a package that allows R users to build interactive web applications directly from R code. This was a major breakthrough for those working with R, as it enabled the easy deployment of data-driven apps without the need for extensive web development skills.\nKey Features:\n\nNo Need for HTML/CSS/JavaScript: Shiny allows users to create web applications using only R, making it highly accessible for data scientists and statisticians.\nInteractive Visualizations: With Shiny, users can build interactive dashboards, allowing real-time data updates, filtering, and customization using R’s visualization tools like ggplot2.\nCustomization: Shiny apps can be highly customized, giving developers control over the layout, design, and features of their apps.\nDynamic Applications: Shiny apps are reactive, meaning they respond to user inputs instantly, which is critical for creating dynamic data visualizations and interactive reports.\nDeployment: Shiny applications can be easily hosted on platforms like Shiny Server or shinyapps.io, making it easy to share apps with users.\nGrowing Ecosystem: Since its introduction, Shiny has gained a large community and ecosystem of related packages, enhancing its functionality with tools for real-time collaboration, integration with databases, and advanced UI design.\nApplications in Industry: Shiny is widely used in industries such as healthcare, finance, and government for building dashboards, creating reporting tools, and deploying interactive data solutions.\nIntegration with Other R Packages: Shiny seamlessly integrates with the Tidyverse, Plotly, and other R packages, making it a powerful tool for building advanced applications with data analysis and visualization.\n\n\n\n\n\n\nData Science Dominance: R is now one of the top languages used in data science, analytics, and research. It has a large and vibrant community, with thousands of packages available on CRAN for every imaginable data-related task.\nMachine Learning and AI: R continues to be a major player in machine learning, with packages like xgboost and caret being widely used. Integration with big data tools like Apache Spark and support for AI tools has expanded its capabilities.\nInteroperability: In recent years, R has improved its ability to integrate with other programming languages such as Python, SQL, and C++, further broadening its application."
+  },
+  {
+    "objectID": "blogs/Install/install.html",
+    "href": "blogs/Install/install.html",
+    "title": "Install R/Rstudio in Windows/Mac",
+    "section": "",
+    "text": "This blog helps you to download R and RStudio in Windows or Mac\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nGo to the CRAN website.\nChoose a CRAN mirror and click on Download R for Windows.\nClick on base and then on Download R x.x.x for Windows (the latest version will be shown).\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nOpen the downloaded .exe file and follow the installation process.\nChoose the installation language and follow the set-up process.\nChoose the default options, unless if user has any specific requirements and after installation click finish.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nGo to RStudio website.\nChoose the RStudio Desktop (Open Source License) for Windows.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nOpen the downloaded .exe file and follow the installation process.\nChoose the installation language and follow the set-up process.\nChoose the default options, unless if user has any specific requirements and after installation click finish."
+  },
+  {
+    "objectID": "blogs/Install/install.html#windows",
+    "href": "blogs/Install/install.html#windows",
+    "title": "Install R/Rstudio in Windows/Mac",
+    "section": "",
+    "text": "This blog helps you to download R and RStudio in Windows or Mac\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nGo to the CRAN website.\nChoose a CRAN mirror and click on Download R for Windows.\nClick on base and then on Download R x.x.x for Windows (the latest version will be shown)."
+  },
+  {
+    "objectID": "blogs/Install/install.html#install-rrstudio-in-windowsmac",
+    "href": "blogs/Install/install.html#install-rrstudio-in-windowsmac",
+    "title": "Install R/Rstudio in Windows/Mac",
+    "section": "",
+    "text": "This blog helps you to download R and RStudio in Windows or Mac\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nGo to the CRAN website.\nChoose a CRAN mirror and click on Download R for Windows.\nClick on base and then on Download R x.x.x for Windows (the latest version will be shown)."
+  },
+  {
+    "objectID": "blogs/Install/install.html#r",
+    "href": "blogs/Install/install.html#r",
+    "title": "Install R/Rstudio in Windows/Mac",
+    "section": "",
+    "text": "Note\n\n\n\n\nGo to the CRAN website.\nChoose a CRAN mirror and click on Download R for Windows.\nClick on base and then on Download R x.x.x for Windows (the latest version will be shown).\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nOpen the downloaded .exe file and follow the installation process.\nChoose the installation language and follow the set-up process.\nChoose the default options, unless if user has any specific requirements and after installation click finish."
+  },
+  {
+    "objectID": "blogs/Install/install.html#rstudio",
+    "href": "blogs/Install/install.html#rstudio",
+    "title": "Install R/Rstudio in Windows/Mac",
+    "section": "",
+    "text": "Note\n\n\n\n\nGo to RStudio website.\nChoose the RStudio Desktop (Open Source License) for Windows.\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nOpen the downloaded .exe file and follow the installation process.\nChoose the installation language and follow the set-up process.\nChoose the default options, unless if user has any specific requirements and after installation click finish."
+  },
+  {
+    "objectID": "blogs/Install/install.html#r-1",
+    "href": "blogs/Install/install.html#r-1",
+    "title": "Install R/Rstudio in Windows/Mac",
+    "section": "R",
+    "text": "R\n\nDownload R\n\n\n\n\n\n\nNote\n\n\n\n\nGo to the CRAN website.\nClick on Download R for macOS.\nDownload the latest .pkg version for macOS.\n\n\n\n\n\nInstall R\n\n\n\n\n\n\nNote\n\n\n\n\nOpen the .pkg file once downloaded.\nFollow the installation prompts and enter your password when prompted.\nClick Continue and then Install.\n\n\n\n\n\nInstall Xcode (for dependencies)\n\n\n\n\n\n\nTip\n\n\n\n\nOpen Terminal and run the following command to install Xcode tools:\nxcode-select --install\nPlease follow the instructions on the screen and install."
+  },
+  {
+    "objectID": "blogs/Install/install.html#rstudio-1",
+    "href": "blogs/Install/install.html#rstudio-1",
+    "title": "Install R/Rstudio in Windows/Mac",
+    "section": "RStudio",
+    "text": "RStudio\n\nDownload RStudio\n\n\n\n\n\n\nNote\n\n\n\n\nGo to RStudio website.\nChoose the RStudio Desktop (Open Source License) for macOS.\n\n\n\n\n\nInstall Rstudio\n\n\n\n\n\n\nNote\n\n\n\n\nOpen the downloaded .dmg file.\nDrag and drop the RStudio icon to the Applications folder.\nClick and open RStudio from the Applications folder.\n\n\n\n\nNotes\n\n\n\n\n\n\nImportant\n\n\n\n\nSystem Requirements: Both Windows and macOS should be up-to-date to avoid compatibility or any other issues.\nR and RStudio Versions: Always ensure that you are using the latest versions of both R and RStudio for compatibility with packages.\nPackage Dependencies: Some packages might require additional system libraries, which the package installer will prompt you to install if needed."
   }
 ]

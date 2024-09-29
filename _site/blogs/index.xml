@@ -10,7 +10,7 @@
 <atom:link href="https://pharmatechhub.com/blogs/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Sat, 21 Sep 2024 08:44:48 GMT</lastBuildDate>
+<lastBuildDate>Sun, 29 Sep 2024 16:32:33 GMT</lastBuildDate>
 <item>
   <title>History of R Language</title>
   <link>https://pharmatechhub.com/blogs/history/history.html</link>
@@ -99,8 +99,243 @@
   <category>science</category>
   <category>Technology</category>
   <guid>https://pharmatechhub.com/blogs/history/history.html</guid>
-  <pubDate>Sat, 21 Sep 2024 08:44:48 GMT</pubDate>
+  <pubDate>Sun, 29 Sep 2024 16:32:33 GMT</pubDate>
   <media:content url="https://pharmatechhub.com/blogs/history/R.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Install R/Rstudio in Windows/Mac</title>
+  <link>https://pharmatechhub.com/blogs/Install/install.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="windows" class="level1">
+<h1>Windows</h1>
+<p>This blog helps you to download R and RStudio in Windows or Mac</p>
+<section id="r" class="level2">
+<h2 class="anchored" data-anchor-id="r">R</h2>
+<section id="download-r" class="level3">
+<h3 class="anchored" data-anchor-id="download-r">Download R</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Go to the <a href="https://cran.r-project.org/">CRAN</a> website.</li>
+<li>Choose a CRAN mirror and click on Download R for Windows.</li>
+<li>Click on base and then on Download <code>R x.x.x</code> for Windows (the latest version will be shown).</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-r" class="level3">
+<h3 class="anchored" data-anchor-id="install-r">Install R</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open the downloaded <code>.exe</code> file and follow the installation process.</li>
+<li>Choose the installation language and follow the set-up process.</li>
+<li>Choose the default options, unless if <code>user</code> has any specific requirements and after installation click <code>finish</code>.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio">RStudio</h2>
+<section id="download-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="download-rstudio">Download RStudio</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Go to <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> website.</li>
+<li>Choose the <code>RStudio Desktop</code> <strong>(Open Source License)</strong> for Windows.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="install-rstudio">Install Rstudio</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open the downloaded <code>.exe</code> file and follow the installation process.</li>
+<li>Choose the installation language and follow the set-up process.</li>
+<li>Choose the default options, unless if <code>user</code> has any specific requirements and after installation click <code>finish</code>.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="macos" class="level1">
+<h1>MacOS</h1>
+<section id="r-1" class="level2">
+<h2 class="anchored" data-anchor-id="r-1">R</h2>
+<section id="download-r-1" class="level3">
+<h3 class="anchored" data-anchor-id="download-r-1">Download R</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Go to the <a href="https://cran.r-project.org/">CRAN</a> website.</li>
+<li>Click on Download R for <code>macOS</code>.</li>
+<li>Download the latest <code>.pkg</code> version for macOS.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-r-1" class="level3">
+<h3 class="anchored" data-anchor-id="install-r-1">Install R</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open the <code>.pkg</code> file once downloaded.</li>
+<li>Follow the installation prompts and enter your password when prompted.</li>
+<li>Click Continue and then Install.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-xcode-for-dependencies" class="level3">
+<h3 class="anchored" data-anchor-id="install-xcode-for-dependencies">Install Xcode (for dependencies)</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open Terminal and run the following command to install Xcode tools:</li>
+<li><code>xcode-select --install</code></li>
+<li>Please follow the instructions on the screen and install.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="rstudio-1" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio-1">RStudio</h2>
+<section id="download-rstudio-1" class="level3">
+<h3 class="anchored" data-anchor-id="download-rstudio-1">Download RStudio</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Go to <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> website.</li>
+<li>Choose the <code>RStudio Desktop</code> <strong>(Open Source License)</strong> for <code>macOS</code>.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="install-rstudio-1" class="level3">
+<h3 class="anchored" data-anchor-id="install-rstudio-1">Install Rstudio</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Open the downloaded <code>.dmg</code> file.</li>
+<li>Drag and drop the <code>RStudio icon</code> to the Applications folder.</li>
+<li>Click and open RStudio from the Applications folder.</li>
+</ul>
+</div>
+</div>
+<section id="notes" class="level4">
+<h4 class="anchored" data-anchor-id="notes">Notes</h4>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><code>System Requirements:</code> Both Windows and macOS should be up-to-date to avoid compatibility or any other issues.</li>
+<li><code>R and RStudio Versions:</code> Always ensure that you are using the <strong>latest versions</strong> of both R and RStudio for compatibility with packages.</li>
+<li><code>Package Dependencies:</code> Some packages might require additional <strong>system libraries</strong>, which the package installer will prompt you to install if needed.</li>
+</ul>
+</div>
+</div>
+
+
+</section>
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>Install</category>
+  <category>Software</category>
+  <category>OS</category>
+  <guid>https://pharmatechhub.com/blogs/Install/install.html</guid>
+  <pubDate>Sun, 29 Sep 2024 16:32:33 GMT</pubDate>
+  <media:content url="https://pharmatechhub.com/blogs/Install/exe.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
