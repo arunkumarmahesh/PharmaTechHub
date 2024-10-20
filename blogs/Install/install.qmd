@@ -1,5 +1,5 @@
 ---
-title: Install R/Rstudio in Windows/Mac
+title: Download and Install [R & Rstudio] in Windows and Mac
 categories:
 - Install
 - Software

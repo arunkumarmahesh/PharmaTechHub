@@ -2,8 +2,9 @@
   {
     "listing": "/blogs/index.html",
     "items": [
+      "/blogs/Install/install.html",
       "/blogs/history/history.html",
-      "/blogs/Install/install.html"
+      "/blogs/R_program/R.html"
     ]
   }
 ]

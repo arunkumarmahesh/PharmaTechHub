@@ -1,0 +1,102 @@
+---
+title: R Programming
+categories:
+- Coding
+- Software
+- GUI
+image: R.png
+---
+
+# R Program 
+
+`R` is now one of the top languages used in `Data Science`, `Analytics`, and `Research`. For a `newbie` who is new to `R Programming language` this blog will help them to understand how to use this tool for their day to day activities.
+
+## RGUI
+
+To open RGUI click start button and go-to letter R and click on `R folder` and select the latest version of R [In this session will select version `4.3.1`]
+
+![](1.PNG){width=20%}
+
+- Opens a new `RGui`session window, where users could start writing `code`in **R Console**
+
+![](2.png){width=40%}
+
+::: callout-note
+Tool tab contains:
+
+- File   
+- Edit  
+- View
+- Misc
+- Packages
+- Windows
+- Help
+- Add-on toolbar
+:::
+
+### File
+
+![](3.PNG){width=20%}
+
+### Edit
+
+![](4.PNG){width=20%}
+
+### View
+
+![](5.PNG){width=20%}
+
+### Misc
+
+![](6.PNG){width=20%}
+
+### Packages
+
+![](7.PNG){width=20%}
+
+### Windows
+
+![](8.PNG){width=20%}
+
+### Help
+
+![](9.PNG){width=20%}
+
+### Add-on toolbar
+
+![](18.PNG){width=40%}
+
+#### Open Script
+
+- Open Script ![](10.PNG){width=5%} is used to open the a workspace just select and start developing your code
+
+#### Load Workspace
+
+- Opens a new tab when selected this functionality ![](11.PNG){width=5%}, need to select any pre-loaded or saved workspace to start working on previous projects 
+
+#### Save workspace
+
+- Select to save the current work space using this functionality ![](12.PNG){width=5%} 
+
+#### Copy
+
+- User need to select and select the button to ![](13.PNG){width=5%} copy the code
+
+#### Paste
+
+- Once user select and copy the code need to select this button ![](14.PNG){width=5%} to paste the code in the session
+
+#### Copy and paste
+
+- User ![](15.PNG){width=5%} could able to select the code and press button to copy and paste the code
+
+
+#### Stop current computation
+
+- This ![](16.PNG){width=5%} button helps to stop current running session
+
+#### Print
+
+- Print ![](17.PNG){width=5%} button helps to print the session window
+
+

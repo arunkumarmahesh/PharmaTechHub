@@ -10,100 +10,9 @@
 <atom:link href="https://pharmatechhub.com/blogs/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.353</generator>
-<lastBuildDate>Sun, 29 Sep 2024 16:32:33 GMT</lastBuildDate>
+<lastBuildDate>Sun, 20 Oct 2024 17:53:41 GMT</lastBuildDate>
 <item>
-  <title>History of R Language</title>
-  <link>https://pharmatechhub.com/blogs/history/history.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="history-of-r-programming-language" class="level2">
-<h2 class="anchored" data-anchor-id="history-of-r-programming-language">History of R Programming Language</h2>
-<p>R is a programming language and environment specifically designed for statistical computing and graphics. It has grown to become one of the most popular tools for data analysis, statistical modeling, and visualization across various fields, including academia, finance, healthcare, and technology. Here’s a brief history of the R programming language:</p>
-<section id="origin-and-inspiration-1970s-1990s" class="level3">
-<h3 class="anchored" data-anchor-id="origin-and-inspiration-1970s-1990s"><strong>Origin and Inspiration (1970s-1990s)</strong>:</h3>
-<ul>
-<li><strong>S Language</strong>: R’s roots trace back to the 1970s with the development of the <strong>S language</strong> at <strong>Bell Labs</strong> by <strong>John Chambers</strong> and colleagues. S was designed to help statisticians interact with and manipulate data more efficiently.</li>
-<li><strong>S-Plus</strong>: During the 1980s and 1990s, a commercial version of S, called <strong>S-Plus</strong>, became popular for statistical analysis in various industries.</li>
-</ul>
-</section>
-<section id="birth-of-r-1993" class="level3">
-<h3 class="anchored" data-anchor-id="birth-of-r-1993"><strong>Birth of R (1993)</strong>:</h3>
-<ul>
-<li><strong>Ross Ihaka</strong> and <strong>Robert Gentleman</strong>, two statisticians from the University of Auckland, New Zealand, developed <strong>R</strong> in the early 1990s. They wanted to create an open-source alternative to S with a more user-friendly interface.</li>
-<li><strong>1993</strong>: The first version of R was released. It was intended to be a free software environment where users could write and share code, and the source code was released under the GNU General Public License (GPL), ensuring it would remain open-source.</li>
-</ul>
-</section>
-<section id="growth-and-popularity-1997-2000s" class="level3">
-<h3 class="anchored" data-anchor-id="growth-and-popularity-1997-2000s"><strong>Growth and Popularity (1997-2000s)</strong>:</h3>
-<ul>
-<li><strong>1997</strong>: The <strong>R Core Team</strong> was formed, composed of statisticians from around the world who contributed to the further development of the language.</li>
-<li><strong>CRAN (Comprehensive R Archive Network)</strong>: Around this time, the creation of <strong>CRAN</strong> provided a centralized repository for users to download R packages and share their own code. This allowed R’s capabilities to grow rapidly through user contributions.</li>
-<li>The introduction of <strong>packages</strong> significantly expanded R’s functionality, enabling users to develop tools for specialized tasks such as machine learning, time series analysis, and data visualization.</li>
-</ul>
-</section>
-<section id="key-milestones" class="level3">
-<h3 class="anchored" data-anchor-id="key-milestones"><strong>Key Milestones</strong>:</h3>
-<ul>
-<li><strong>2000s</strong>: R gained traction among academics and researchers because of its robust statistical features and flexibility. Many statisticians preferred it to expensive commercial software such as SAS and SPSS.</li>
-<li><strong>2004</strong>: The book <strong>“R Programming”</strong> by <strong>Brian Ripley</strong> and others played a key role in introducing R to a broader audience and solidifying its place in data science.</li>
-</ul>
-</section>
-<section id="the-rise-of-data-science-and-machine-learning-2010s" class="level3">
-<h3 class="anchored" data-anchor-id="the-rise-of-data-science-and-machine-learning-2010s"><strong>The Rise of Data Science and Machine Learning (2010s)</strong>:</h3>
-<ul>
-<li>As data science and machine learning became increasingly important across industries, R evolved as a major tool for both academic and commercial data scientists.</li>
-<li>Packages like <strong>ggplot2</strong> (for advanced data visualization), <strong>dplyr</strong> (for data manipulation), and <strong>caret</strong> (for machine learning) became essential in the data scientist’s toolkit.</li>
-<li>R’s flexibility, paired with its robust ecosystem of packages, made it a favorite for statisticians, biostatisticians, and data scientists working on everything from genomics to social media analytics.</li>
-</ul>
-</section>
-<section id="tidyverse-and-modern-advancements" class="level3">
-<h3 class="anchored" data-anchor-id="tidyverse-and-modern-advancements"><strong>Tidyverse and Modern Advancements</strong>:</h3>
-<ul>
-<li><strong>Hadley Wickham</strong>, a key contributor to the R community, introduced the <strong>Tidyverse</strong> in the mid-2010s, which provided a collection of packages designed for clean and easy data manipulation and visualization (e.g., <code>dplyr</code>, <code>tidyr</code>, <code>ggplot2</code>).</li>
-<li><strong>RStudio</strong>, an integrated development environment (IDE) for R, became extremely popular, making R more accessible and user-friendly.</li>
-</ul>
-</section>
-<section id="r-shiny-2012-present" class="level3">
-<h3 class="anchored" data-anchor-id="r-shiny-2012-present"><strong>R Shiny (2012-Present)</strong>:</h3>
-<ul>
-<li><strong>Introduction of Shiny</strong>: In 2012, <strong>RStudio</strong> introduced <strong>Shiny</strong>, a package that allows R users to build <strong>interactive web applications</strong> directly from R code. This was a major breakthrough for those working with R, as it enabled the easy deployment of data-driven apps without the need for extensive web development skills.</li>
-<li><strong>Key Features</strong>:
-<ol type="1">
-<li><strong>No Need for HTML/CSS/JavaScript</strong>: Shiny allows users to create web applications using only R, making it highly accessible for data scientists and statisticians.</li>
-<li><strong>Interactive Visualizations</strong>: With Shiny, users can build interactive dashboards, allowing real-time data updates, filtering, and customization using R’s visualization tools like <code>ggplot2</code>.</li>
-<li><strong>Customization</strong>: Shiny apps can be highly customized, giving developers control over the layout, design, and features of their apps.</li>
-<li><strong>Dynamic Applications</strong>: Shiny apps are reactive, meaning they respond to user inputs instantly, which is critical for creating dynamic data visualizations and interactive reports.</li>
-<li><strong>Deployment</strong>: Shiny applications can be easily hosted on platforms like <strong>Shiny Server</strong> or <strong>shinyapps.io</strong>, making it easy to share apps with users.</li>
-<li><strong>Growing Ecosystem</strong>: Since its introduction, Shiny has gained a large community and ecosystem of related packages, enhancing its functionality with tools for real-time collaboration, integration with databases, and advanced UI design.</li>
-<li><strong>Applications in Industry</strong>: Shiny is widely used in industries such as healthcare, finance, and government for building dashboards, creating reporting tools, and deploying interactive data solutions.</li>
-<li><strong>Integration with Other R Packages</strong>: Shiny seamlessly integrates with the <strong>Tidyverse</strong>, <strong>Plotly</strong>, and other R packages, making it a powerful tool for building advanced applications with data analysis and visualization.</li>
-</ol></li>
-</ul>
-</section>
-<section id="r-in-the-present-2020s-and-beyond" class="level3">
-<h3 class="anchored" data-anchor-id="r-in-the-present-2020s-and-beyond"><strong>R in the Present (2020s and Beyond)</strong>:</h3>
-<ul>
-<li><strong>Data Science Dominance</strong>: R is now one of the top languages used in data science, analytics, and research. It has a large and vibrant community, with thousands of packages available on CRAN for every imaginable data-related task.</li>
-<li><strong>Machine Learning and AI</strong>: R continues to be a major player in machine learning, with packages like <strong>xgboost</strong> and <strong>caret</strong> being widely used. Integration with big data tools like <strong>Apache Spark</strong> and support for AI tools has expanded its capabilities.</li>
-<li><strong>Interoperability</strong>: In recent years, R has improved its ability to integrate with other programming languages such as Python, SQL, and C++, further broadening its application.</li>
-</ul>
-
-
-</section>
-</section>
-
- ]]></description>
-  <category>History</category>
-  <category>science</category>
-  <category>Technology</category>
-  <guid>https://pharmatechhub.com/blogs/history/history.html</guid>
-  <pubDate>Sun, 29 Sep 2024 16:32:33 GMT</pubDate>
-  <media:content url="https://pharmatechhub.com/blogs/history/R.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Install R/Rstudio in Windows/Mac</title>
+  <title>Download and Install [R &amp; Rstudio] in Windows and Mac</title>
   <link>https://pharmatechhub.com/blogs/Install/install.html</link>
   <description><![CDATA[ 
 
@@ -334,8 +243,235 @@ Important
   <category>Software</category>
   <category>OS</category>
   <guid>https://pharmatechhub.com/blogs/Install/install.html</guid>
-  <pubDate>Sun, 29 Sep 2024 16:32:33 GMT</pubDate>
+  <pubDate>Sun, 20 Oct 2024 17:53:41 GMT</pubDate>
   <media:content url="https://pharmatechhub.com/blogs/Install/exe.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>History of R Language</title>
+  <link>https://pharmatechhub.com/blogs/history/history.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="history-of-r-programming-language" class="level2">
+<h2 class="anchored" data-anchor-id="history-of-r-programming-language">History of R Programming Language</h2>
+<p>R is a programming language and environment specifically designed for statistical computing and graphics. It has grown to become one of the most popular tools for data analysis, statistical modeling, and visualization across various fields, including academia, finance, healthcare, and technology. Here’s a brief history of the R programming language:</p>
+<section id="origin-and-inspiration-1970s-1990s" class="level3">
+<h3 class="anchored" data-anchor-id="origin-and-inspiration-1970s-1990s"><strong>Origin and Inspiration (1970s-1990s)</strong>:</h3>
+<ul>
+<li><strong>S Language</strong>: R’s roots trace back to the 1970s with the development of the <strong>S language</strong> at <strong>Bell Labs</strong> by <strong>John Chambers</strong> and colleagues. S was designed to help statisticians interact with and manipulate data more efficiently.</li>
+<li><strong>S-Plus</strong>: During the 1980s and 1990s, a commercial version of S, called <strong>S-Plus</strong>, became popular for statistical analysis in various industries.</li>
+</ul>
+</section>
+<section id="birth-of-r-1993" class="level3">
+<h3 class="anchored" data-anchor-id="birth-of-r-1993"><strong>Birth of R (1993)</strong>:</h3>
+<ul>
+<li><strong>Ross Ihaka</strong> and <strong>Robert Gentleman</strong>, two statisticians from the University of Auckland, New Zealand, developed <strong>R</strong> in the early 1990s. They wanted to create an open-source alternative to S with a more user-friendly interface.</li>
+<li><strong>1993</strong>: The first version of R was released. It was intended to be a free software environment where users could write and share code, and the source code was released under the GNU General Public License (GPL), ensuring it would remain open-source.</li>
+</ul>
+</section>
+<section id="growth-and-popularity-1997-2000s" class="level3">
+<h3 class="anchored" data-anchor-id="growth-and-popularity-1997-2000s"><strong>Growth and Popularity (1997-2000s)</strong>:</h3>
+<ul>
+<li><strong>1997</strong>: The <strong>R Core Team</strong> was formed, composed of statisticians from around the world who contributed to the further development of the language.</li>
+<li><strong>CRAN (Comprehensive R Archive Network)</strong>: Around this time, the creation of <strong>CRAN</strong> provided a centralized repository for users to download R packages and share their own code. This allowed R’s capabilities to grow rapidly through user contributions.</li>
+<li>The introduction of <strong>packages</strong> significantly expanded R’s functionality, enabling users to develop tools for specialized tasks such as machine learning, time series analysis, and data visualization.</li>
+</ul>
+</section>
+<section id="key-milestones" class="level3">
+<h3 class="anchored" data-anchor-id="key-milestones"><strong>Key Milestones</strong>:</h3>
+<ul>
+<li><strong>2000s</strong>: R gained traction among academics and researchers because of its robust statistical features and flexibility. Many statisticians preferred it to expensive commercial software such as SAS and SPSS.</li>
+<li><strong>2004</strong>: The book <strong>“R Programming”</strong> by <strong>Brian Ripley</strong> and others played a key role in introducing R to a broader audience and solidifying its place in data science.</li>
+</ul>
+</section>
+<section id="the-rise-of-data-science-and-machine-learning-2010s" class="level3">
+<h3 class="anchored" data-anchor-id="the-rise-of-data-science-and-machine-learning-2010s"><strong>The Rise of Data Science and Machine Learning (2010s)</strong>:</h3>
+<ul>
+<li>As data science and machine learning became increasingly important across industries, R evolved as a major tool for both academic and commercial data scientists.</li>
+<li>Packages like <strong>ggplot2</strong> (for advanced data visualization), <strong>dplyr</strong> (for data manipulation), and <strong>caret</strong> (for machine learning) became essential in the data scientist’s toolkit.</li>
+<li>R’s flexibility, paired with its robust ecosystem of packages, made it a favorite for statisticians, biostatisticians, and data scientists working on everything from genomics to social media analytics.</li>
+</ul>
+</section>
+<section id="tidyverse-and-modern-advancements" class="level3">
+<h3 class="anchored" data-anchor-id="tidyverse-and-modern-advancements"><strong>Tidyverse and Modern Advancements</strong>:</h3>
+<ul>
+<li><strong>Hadley Wickham</strong>, a key contributor to the R community, introduced the <strong>Tidyverse</strong> in the mid-2010s, which provided a collection of packages designed for clean and easy data manipulation and visualization (e.g., <code>dplyr</code>, <code>tidyr</code>, <code>ggplot2</code>).</li>
+<li><strong>RStudio</strong>, an integrated development environment (IDE) for R, became extremely popular, making R more accessible and user-friendly.</li>
+</ul>
+</section>
+<section id="r-shiny-2012-present" class="level3">
+<h3 class="anchored" data-anchor-id="r-shiny-2012-present"><strong>R Shiny (2012-Present)</strong>:</h3>
+<ul>
+<li><strong>Introduction of Shiny</strong>: In 2012, <strong>RStudio</strong> introduced <strong>Shiny</strong>, a package that allows R users to build <strong>interactive web applications</strong> directly from R code. This was a major breakthrough for those working with R, as it enabled the easy deployment of data-driven apps without the need for extensive web development skills.</li>
+<li><strong>Key Features</strong>:
+<ol type="1">
+<li><strong>No Need for HTML/CSS/JavaScript</strong>: Shiny allows users to create web applications using only R, making it highly accessible for data scientists and statisticians.</li>
+<li><strong>Interactive Visualizations</strong>: With Shiny, users can build interactive dashboards, allowing real-time data updates, filtering, and customization using R’s visualization tools like <code>ggplot2</code>.</li>
+<li><strong>Customization</strong>: Shiny apps can be highly customized, giving developers control over the layout, design, and features of their apps.</li>
+<li><strong>Dynamic Applications</strong>: Shiny apps are reactive, meaning they respond to user inputs instantly, which is critical for creating dynamic data visualizations and interactive reports.</li>
+<li><strong>Deployment</strong>: Shiny applications can be easily hosted on platforms like <strong>Shiny Server</strong> or <strong>shinyapps.io</strong>, making it easy to share apps with users.</li>
+<li><strong>Growing Ecosystem</strong>: Since its introduction, Shiny has gained a large community and ecosystem of related packages, enhancing its functionality with tools for real-time collaboration, integration with databases, and advanced UI design.</li>
+<li><strong>Applications in Industry</strong>: Shiny is widely used in industries such as healthcare, finance, and government for building dashboards, creating reporting tools, and deploying interactive data solutions.</li>
+<li><strong>Integration with Other R Packages</strong>: Shiny seamlessly integrates with the <strong>Tidyverse</strong>, <strong>Plotly</strong>, and other R packages, making it a powerful tool for building advanced applications with data analysis and visualization.</li>
+</ol></li>
+</ul>
+</section>
+<section id="r-in-the-present-2020s-and-beyond" class="level3">
+<h3 class="anchored" data-anchor-id="r-in-the-present-2020s-and-beyond"><strong>R in the Present (2020s and Beyond)</strong>:</h3>
+<ul>
+<li><strong>Data Science Dominance</strong>: R is now one of the top languages used in data science, analytics, and research. It has a large and vibrant community, with thousands of packages available on CRAN for every imaginable data-related task.</li>
+<li><strong>Machine Learning and AI</strong>: R continues to be a major player in machine learning, with packages like <strong>xgboost</strong> and <strong>caret</strong> being widely used. Integration with big data tools like <strong>Apache Spark</strong> and support for AI tools has expanded its capabilities.</li>
+<li><strong>Interoperability</strong>: In recent years, R has improved its ability to integrate with other programming languages such as Python, SQL, and C++, further broadening its application.</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>History</category>
+  <category>Science</category>
+  <category>Technology</category>
+  <guid>https://pharmatechhub.com/blogs/history/history.html</guid>
+  <pubDate>Sun, 20 Oct 2024 17:53:41 GMT</pubDate>
+  <media:content url="https://pharmatechhub.com/blogs/history/R.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>R Programming</title>
+  <link>https://pharmatechhub.com/blogs/R_program/R.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="r-program" class="level1">
+<h1>R Program</h1>
+<p><code>R</code> is now one of the top languages used in <code>Data Science</code>, <code>Analytics</code>, and <code>Research</code>. For a <code>newbie</code> who is new to <code>R Programming language</code> this blog will help them to understand how to use this tool for their day to day activities.</p>
+<section id="rgui" class="level2">
+<h2 class="anchored" data-anchor-id="rgui">RGUI</h2>
+<p>To open RGUI click start button and go-to letter R and click on <code>R folder</code> and select the latest version of R [In this session will select version <code>4.3.1</code>]</p>
+<p><img src="https://pharmatechhub.com/blogs/R_program/1.PNG" class="img-fluid" style="width:20.0%"></p>
+<ul>
+<li>Opens a new <code>RGui</code>session window, where users could start writing <code>code</code>in <strong>R Console</strong></li>
+</ul>
+<p><img src="https://pharmatechhub.com/blogs/R_program/2.png" class="img-fluid" style="width:40.0%"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tool tab contains:</p>
+<ul>
+<li>File<br>
+</li>
+<li>Edit<br>
+</li>
+<li>View</li>
+<li>Misc</li>
+<li>Packages</li>
+<li>Windows</li>
+<li>Help</li>
+<li>Add-on toolbar</li>
+</ul>
+</div>
+</div>
+<section id="file" class="level3">
+<h3 class="anchored" data-anchor-id="file">File</h3>
+<p><img src="https://pharmatechhub.com/blogs/R_program/3.PNG" class="img-fluid" style="width:20.0%"></p>
+</section>
+<section id="edit" class="level3">
+<h3 class="anchored" data-anchor-id="edit">Edit</h3>
+<p><img src="https://pharmatechhub.com/blogs/R_program/4.PNG" class="img-fluid" style="width:20.0%"></p>
+</section>
+<section id="view" class="level3">
+<h3 class="anchored" data-anchor-id="view">View</h3>
+<p><img src="https://pharmatechhub.com/blogs/R_program/5.PNG" class="img-fluid" style="width:20.0%"></p>
+</section>
+<section id="misc" class="level3">
+<h3 class="anchored" data-anchor-id="misc">Misc</h3>
+<p><img src="https://pharmatechhub.com/blogs/R_program/6.PNG" class="img-fluid" style="width:20.0%"></p>
+</section>
+<section id="packages" class="level3">
+<h3 class="anchored" data-anchor-id="packages">Packages</h3>
+<p><img src="https://pharmatechhub.com/blogs/R_program/7.PNG" class="img-fluid" style="width:20.0%"></p>
+</section>
+<section id="windows" class="level3">
+<h3 class="anchored" data-anchor-id="windows">Windows</h3>
+<p><img src="https://pharmatechhub.com/blogs/R_program/8.PNG" class="img-fluid" style="width:20.0%"></p>
+</section>
+<section id="help" class="level3">
+<h3 class="anchored" data-anchor-id="help">Help</h3>
+<p><img src="https://pharmatechhub.com/blogs/R_program/9.PNG" class="img-fluid" style="width:20.0%"></p>
+</section>
+<section id="add-on-toolbar" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-toolbar">Add-on toolbar</h3>
+<section id="open-script" class="level4">
+<h4 class="anchored" data-anchor-id="open-script">Open Script</h4>
+<ul>
+<li>Open Script <img src="https://pharmatechhub.com/blogs/R_program/10.PNG" class="img-fluid" style="width:5.0%"> is used to open the a workspace just select and start developing your code</li>
+</ul>
+</section>
+<section id="load-workspace" class="level4">
+<h4 class="anchored" data-anchor-id="load-workspace">Load Workspace</h4>
+<ul>
+<li>Opens a new tab when selected this functionality <img src="https://pharmatechhub.com/blogs/R_program/11.PNG" class="img-fluid" style="width:5.0%">, need to select any pre-loaded or saved workspace to start working on previous projects</li>
+</ul>
+</section>
+<section id="save-workspace" class="level4">
+<h4 class="anchored" data-anchor-id="save-workspace">Save workspace</h4>
+<ul>
+<li>Select to save the current work space using this functionality <img src="https://pharmatechhub.com/blogs/R_program/12.PNG" class="img-fluid" style="width:5.0%"></li>
+</ul>
+</section>
+<section id="copy" class="level4">
+<h4 class="anchored" data-anchor-id="copy">Copy</h4>
+<ul>
+<li>User need to select and select the button to <img src="https://pharmatechhub.com/blogs/R_program/13.PNG" class="img-fluid" style="width:5.0%"> copy the code</li>
+</ul>
+</section>
+<section id="paste" class="level4">
+<h4 class="anchored" data-anchor-id="paste">Paste</h4>
+<ul>
+<li>Once user select and copy the code need to select this button <img src="https://pharmatechhub.com/blogs/R_program/14.PNG" class="img-fluid" style="width:5.0%"> to paste the code in the session</li>
+</ul>
+</section>
+<section id="copy-and-paste" class="level4">
+<h4 class="anchored" data-anchor-id="copy-and-paste">Copy and paste</h4>
+<ul>
+<li>User <img src="https://pharmatechhub.com/blogs/R_program/15.PNG" class="img-fluid" style="width:5.0%"> could able to select the code and press button to copy and paste the code</li>
+</ul>
+<p><img src="https://pharmatechhub.com/blogs/R_program/15.PNG" class="img-fluid" style="width:5.0%"></p>
+</section>
+<section id="stop-current-computation" class="level4">
+<h4 class="anchored" data-anchor-id="stop-current-computation">Stop current computation</h4>
+<ul>
+<li>This <img src="https://pharmatechhub.com/blogs/R_program/16.PNG" class="img-fluid" style="width:5.0%"> button helps to stop current running session</li>
+</ul>
+</section>
+<section id="print" class="level4">
+<h4 class="anchored" data-anchor-id="print">Print</h4>
+<ul>
+<li>Print <img src="https://pharmatechhub.com/blogs/R_program/17.PNG" class="img-fluid" style="width:5.0%"> button helps to print the session window</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>Coding</category>
+  <category>Software</category>
+  <category>GUI</category>
+  <guid>https://pharmatechhub.com/blogs/R_program/R.html</guid>
+  <pubDate>Sun, 20 Oct 2024 17:53:41 GMT</pubDate>
+  <media:content url="https://pharmatechhub.com/blogs/R_program/R.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>
